@@ -30,8 +30,17 @@ p {
   margin-left: 10px;
 }
 
+.h3-white {
+  font-size: 24px;
+  color: #ffffff;
+}
+
 .label-black-background {
   margin-left: 10px;
+}
+
+p {
+  padding-right: 40px;
 }
 
 
@@ -65,10 +74,6 @@ p {
 }
 
 /* About Intro Grid */
-.about-intro {
-  display: flex;
-  flex-direction: column;
-}
 
 .about-intro-grid,
 .skills-grid {
@@ -81,7 +86,7 @@ p {
 }
 
 .p-intro {
-  padding: 20px 0px 0px 0px;
+  padding: 20px 40px 0px 0px;
 }
 
 .p-gray {
@@ -196,7 +201,7 @@ p {
 
 ul li {
   list-style: none;
-  color: #1A1F26;
+  color: #0f0f1b;
   font-size: 36px;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
@@ -239,7 +244,7 @@ ul li {
 /* Polaroids */
 .polaroid-container {
   padding: 50px 5px;
-  background-color: #1A1F26;
+  background-color: #0f0f1b;
 }
 
 .polaroid-title {
@@ -321,4 +326,14 @@ ul li {
 .h2-black-background,
 .p-black-background {
   color: #ffffff;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px 20px 30px;
+  background-color: #0f0f1b;
 }
