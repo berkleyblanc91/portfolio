@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Final Project (Home)</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -12,32 +13,27 @@
 <body>
   <!-- Top Navigation -->
   <header class="header-1">
-    <img src="" alt="">
+    <h3 class="h3-white">Berkley Blanc</h3>
     <nav>
       <a class="navigation-item" href="">Home</a>
-      <a class="navigation-item" href="./About/index.html">About</a>
+      <a class="navigation-item" href="">About</a>
       <a class="navigation-item" href="">Work</a>
       <a class="navigation-item-button" href="">Resume</a>
     </nav>
   </header>
+  
   <!-- Section 1 -->
   <section class="flex-container-1">
     <div class="hero-container-1">
-      <h1 class="h1-blue">Berkley Blanc</h1>
-      <p class="label">The journey of a Graphic Designer turned Product Manager.</p>
-     
+      <p class="label">The Journey of a Graphic Designer turned Product Manager</p>
     </div>
   </section>
 
   <!-- Section 2 -->
   <section class="flex-container-2">
-    <div class="hero-container-2">
-      <h2 class="h2-green">Hello World!</h2>
-      <p class="body-copy">In the last 12 years, my professional experiences has taken me to many places working with a diverse range of people. I have a remarkable background in coordinating with cross-functional teams and departments for deriving strategic decisions to accomplish organizational objectives.</p>
-    </div>
     <div class="columns">
       <div class="column-1">
-        <h3 class="h3-green">Kent, OH</h3>
+        <h3 class="h3-green">Kent, OH 👩🏻‍🎓</h3>
         <p>Bachelor of the Arts, VCD</p>
         <p>Aug 2009 — Dec 2012</p>
       </div>
@@ -45,7 +41,7 @@
         <h3>></h3>
       </div>
       <div class="column-2">
-        <h3 class="h3-green">New York, NY</h3>
+        <h3 class="h3-green">New York, NY 🗽</h3>
         <p>Graphic Designer</p>
         <p>Apr 2015 — Sept 2017</p>
       </div>
@@ -53,7 +49,7 @@
         <h3>></h3>
       </div>
       <div class="column-3">
-        <h3 class="h3-green">Madrid, ESP</h3>
+        <h3 class="h3-green">Madrid, ESP 🇪🇸</h3>
         <p>Digital Designer</p>
         <p>Oct 2017 — Aug 2019</p>
       </div>
@@ -61,7 +57,7 @@
         <h3>></h3>
       </div>
       <div class="column-4">
-        <h3 class="h3-green">Cleveland, OH</h3>
+        <h3 class="h3-green">Cleveland, OH 🏠</h3>
         <p>UI/UX Designer</p>
         <p>Aug 2019 — Mar 2021</p>
       </div>
@@ -69,12 +65,13 @@
         <h3>></h3>
       </div>
       <div class="column-5">
-        <h3 class="h3-green">Spokane, WA</h3>
+        <h3 class="h3-green">Spokane, WA ⛰️</h3>
         <p>Product Manager</p>
         <p>Mar 2021 — Present</p>
       </div>
     </div>
-    <!-- Passport Gallery -->
+
+    <!-- Passport Stamp Gallery -->
     <div class="container">
       <div class="gallery">
         <div class="gallery__item gallery__item--1">
@@ -89,14 +86,60 @@
         <div class="gallery__item gallery__item--5">
         </div>
         <div class="gallery__item gallery__item--6">
-          <p class="p-black-background">body text...</p>
+      <p class="body-copy">In the last 12 years, my professional experiences has taken me to many places working with a diverse range of people. I have a remarkable background in coordinating with cross-functional teams and departments for deriving strategic decisions to accomplish organizational objectives.</p>
         </div>
       </div>
     </div>
   </section>
-  
+
+  <!-- Section 3 -->
+  <section class="flex-container-3">
+    <div class="form-intro">
+      <h1 class="h1-white">Want to get in touch?</h1>
+      <h1 class="h1-white">Drop a line. 💬</h1>
+    </div>
+
+    <!-- Contact Form -->
+    <form id="contact-form">
+      <fieldset>
+        <legend>Your Contact Info</legend>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <div class="name-field">
+            <input type="text" name="name[full]" placeholder="Berkley Blanc" id="full-name" autofocus>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <div class="email-field">
+            <input type="text" name="email" placeholder="bblanc@gmail.com" id="email-address" autofocus>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="phone">Phone #</label>
+          <div class="phone-number-fields">
+            <input type="text" name="phone[area_code]" placeholder="000" class="phone" maxlength="3" id="phone-area-code">
+            <input type="text" name="phone[prefix]" placeholder="000" class="phone" maxlength="3" id="phone-prefix">
+            <input type="text" name="phone[line_number]" placeholder="0000" class="phone" maxlength="4" id="phone-line-number">
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="commentSection">Comments</label>
+          <textarea name="comment_section" placeholder="Let's work together!" id="comment-section"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <input type="submit" value="Submit">
+      </fieldset>
+      <ul id="errors"></ul>
+    </form>
+  </section>
+  <footer>
+    <h3 class="h3-white">Berkley Blanc</h3>
+  </footer>
 </body>
 <!-- partial -->
-  
+  <script  src="./script.js"></script>
+
 </body>
 </html>
