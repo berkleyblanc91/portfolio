@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.h1-gray {
+  font-family: Montserrat, sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #1a1f26;
+}
+
+.h2-green,
+.h3-green {
+  color: #47e975;
+  margin-left: 10px;
+}
+
+.h3-white {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.label-black-background {
+  margin-left: 10px;
+}
+
+p {
+  padding-right: 40px;
+}
+
+
+/* Top Navigation */
+.header-1 {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5D5FFC;
+}
+
+.navigation-item {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navigation-item-button {
+  background-color: #ffffff;
+  color: #160635;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.navigation-item-button:hover {
+  background-color: #47E975;
+  color: #ffffff;
+}
+
+/* About Intro Grid */
+
+.about-intro-grid,
+.skills-grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.label-gray .h2-gray .p-gray {
+  color: #1A1F26;
+}
+
+.p-intro {
+  padding: 20px 40px 0px 0px;
+}
+
+.p-gray {
+  padding: 20px 0px 0px 0px;
+  font-weight: bold;
+}
+
+/* Left Side */
+.about-intro-left {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #47e975;
+  padding-left: 20px;
+}
+
+/* Right Side */
+.about-intro-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7f65f8;
+  background-image: url("https://i.ibb.co/b7RCMkB/about-background.png");
+  height: 650px;
+}
+
+/* Kent, OH Grid */
+.about-intro-left-kent {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  background-color: #00F0A5;
+}
+
+.about-intro-right-kent {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://i.ibb.co/crfvHf1/kent-background.png);
+}
+
+/* New York, NY Grid */
+.about-intro-left-nyc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://i.ibb.co/MR1XDwk/nyc-background.png);
+}
+
+.about-intro-right-nyc {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  background-color: #FA67F6;
+}
+
+/* Madrid, ESP Grid */
+.about-intro-left-madrid {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #FFA31D;
+  padding-left: 20px;
+}
+
+.about-intro-right-madrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://i.ibb.co/jh9hzM4/madrid-background.png);
+}
+
+/* Cleveland, OH Grid */
+.about-intro-left-cleveland {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://i.ibb.co/BKywXvF/cleveland-background.png);
+}
+
+.about-intro-right-cleveland {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #59E5FB;
+  padding-left: 20px;
+}
+
+/* Spokane, WA Grid */
+.about-intro-left-spokane {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #FFD762;
+  padding-left: 20px;
+}
+
+.about-intro-right-spokane {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://i.ibb.co/3kjFkJK/spokane-background.png);
+}
+
+ul li {
+  list-style: none;
+  color: #0f0f1b;
+  font-size: 36px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  margin: 0px 0px 10px 0px;
+  background-color: #ffffff;
+  text-decoration: none;
+  padding: 7px;
+}
+
+.emoji  {
+  list-style: none;
+  font-size: 36px;
+  text-align: center;
+  margin: 0px 0px 10px 0px;
+  text-decoration: none;
+  padding: 7px;
+  background: none;
+}
+
+/* Polaroid Grid */
+.polaroid-button-text {
+  padding: 10px;
+}
+
+.image-mask-darken {
+  position: relative;
+}
+
+.image-mask-darken:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.3);
+  content: "";
+}
+
+/* Polaroids */
+.polaroid-container {
+  padding: 50px 5px;
+  background-color: #0f0f1b;
+}
+
+.polaroid-title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.polaroid-subtitle {
+  font-size: 14px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.polaroid-three-container {
+  justify-content: center;
+  display: flex;
+}
+
+.polaroid-indiv-container {
+  margin: 1%;
+  width: 30%;
+  border: 10px solid #ffffff;
+}
+
+.polaroid-indiv-header {
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.kent  { background-image: url('https://i.ibb.co/3S21tWD/kent.png'); }
+.new-york { background-image: url('https://i.ibb.co/FsNj56Z/nyc.png'); }
+.madrid     { background-image: url('https://i.ibb.co/x2Pf5fJ/madrid.png');}
+.cleveland     { background-image: url('https://i.ibb.co/qmW6YqZ/cleveland.png');}
+.spokane     { background-image: url('https://i.ibb.co/K92h57L/spokane.png');}
+.journey     { background-image: url('https://i.ibb.co/mF0N18x/journey.png');}
+
+.polaroid-indiv-header-content {
+  position: absolute;
+}
+
+.polaroid-indiv-title {
+  font-size: 24px;
+}
+
+.polaroid-indiv-details {
+  background-color: #ffff;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #dbdbdb;
+  line-height: 1.4;
+  margin: 0;
+  min-height: 50px;
+  padding: 20px;
+}
+
+/* Skills Timeline */
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1.75fr, 1fr;
+  grid-template-rows: minmax(auto, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin: 40px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-black-background,
+.h2-black-background,
+.p-black-background {
+  color: #ffffff;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px 20px 30px;
+  background-color: #0f0f1b;
+}
